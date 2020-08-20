@@ -1,0 +1,26 @@
+{
+  "name": "fileView",
+  "version": "1.0.0",
+  "description": "pdf,word,excel转html，以便在浏览器中预览",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/index.js",
+    "start":"node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changgeee/file2html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/changgeee/file2html/issues"
+  },
+  "homepage": "https://github.com/changgeee/file2html#readme",
+  "dependencies": {
+    "mammoth": "^1.4.11",
+    "pdftohtmljs": "^0.6.0",
+    "xlsx": "^0.16.6"
+  }
+}
